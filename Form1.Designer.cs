@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "asda"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Transparent, null);
             this.clockIn = new System.Windows.Forms.Button();
             this.clockOut = new System.Windows.Forms.Button();
@@ -77,7 +77,7 @@
             this.timeSheetItems.BackColor = System.Drawing.SystemColors.Window;
             this.timeSheetItems.HideSelection = false;
             this.timeSheetItems.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem1});
             this.timeSheetItems.Location = new System.Drawing.Point(12, 58);
             this.timeSheetItems.Name = "timeSheetItems";
             this.timeSheetItems.Size = new System.Drawing.Size(360, 274);

@@ -25,7 +25,6 @@ namespace SimpleTimeCard
 
         }
 
-
         public string FileName()
         {
             return _fileName;

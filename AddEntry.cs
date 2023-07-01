@@ -21,5 +21,21 @@ namespace SimpleTimeCard
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timePicker.Value =  DateTime.Now;
+        }
+
+        private void accept_Click(object sender, EventArgs e)
+        {
+            DateTime time = timePicker.Value;
+            string action = (clockIn.Checked) ? "Clock In" : "Clock Out";
+            string note = noteTextBox.Text;
+
+
+
+
+        }
     }
 }
